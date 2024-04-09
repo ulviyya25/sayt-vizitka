@@ -1,0 +1,129 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.merch {
+  color: blue;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: oblique;
+  margin-top: 10%;
+  
+}
+
+h2 {
+  font-size: 50px;
+  margin: 40px 0;
+  font-style: oblique;
+}
+
+h3{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(131, 8, 131);
+  font-style: italic;
+}
+
+h4{
+  font-size: 40px;
+  font-style: oblique;
+  text-decoration: wavy;
+}
+h5{
+  font-size: 30px;
+  font-style: oblique;
+  text-decoration: wavy;
+  color:rgba(62, 57, 62, 0.981)
+}
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 420px;
+  background: #eeafd9;
+  border: 2px solid rgba(249, 227, 248, 0.15);
+  border-radius: 5px;
+
+  font-size: 20px;
+  line-height: 1.4;
+
+  color: #fff3fe;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #83b5ec;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(99, 161, 237, 0.1);
+}
+
+button2{
+  font-size: 40px;
+  font-style: oblique;
+  text-decoration: wavy;
+  color:rgba(65, 10, 65, 0.981);
+  margin-top: 10%;
+  background-color: pink;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  margin-right: 0px;
+  margin-left: 0%;
+  border-radius: 0px;
+  /* Радиус скругления */
+  border: 100px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  
+  
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 20px solid #FFD700;
+}
+
+  /* Свойства ссылок */
+a {
+  display: inline-block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  
+  width: 300px;
+}
+
